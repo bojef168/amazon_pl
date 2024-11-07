@@ -1,0 +1,36 @@
+# 分析配置
+analysis:
+  # 最小支持度阈值
+  min_support: 0.1
+  # 最小置信度阈值
+  min_confidence: 0.5
+
+# 报告配置
+report:
+  # 图表配置
+  charts:
+    width: 1200
+    height: 800
+
+  # Excel配置
+  excel:
+    sheet_names:
+      summary: '概述'
+      details: '详细分析'
+      insights: '洞察'
+
+# 日志配置
+logging:
+  level: INFO
+  file_format: '%Y%m%d_%H%M%S'
+
+# 数据处理配置
+data_processing:
+  # 文本清理选项
+  text_cleaning:
+    remove_urls: true
+    remove_emails: true
+    fix_spelling: true
+
+  # 停用词
+  stop_words: ['the', 'is', 'at', 'which']

@@ -1,0 +1,5 @@
+# 忽略特定的测试文件
+src/test_dongji.py
+src/test_experience_analyzer.py
+src/test_yonghu.py
+src/visualize.py

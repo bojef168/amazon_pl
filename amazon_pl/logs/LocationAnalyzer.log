@@ -1,0 +1,686 @@
+2024-11-06 11:30:12,045 - LocationAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 11:39:09,406 - LocationAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 11:43:43,353 - LocationAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:06:02,409 - LocationAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:20:26,451 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 12:20:26,451 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 12:20:26,453 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 12:20:26,455 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 12:20:26,457 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 12:20:26,457 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 12:20:26,462 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 12:20:26,683 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 12:34:51,473 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 12:34:51,473 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 12:34:51,476 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 12:34:51,478 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 12:34:51,480 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 12:34:51,480 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 12:34:51,484 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 12:34:51,702 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 12:39:49,132 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 12:39:49,133 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 12:39:49,135 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 12:39:49,137 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 12:39:49,139 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 12:39:49,139 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 12:39:49,143 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 12:39:49,357 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 12:44:01,135 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 12:44:01,136 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 12:44:01,138 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 12:44:01,140 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 12:44:01,142 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 12:44:01,142 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 12:44:01,146 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 12:44:01,367 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 13:19:05,211 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 13:19:05,211 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 13:19:05,214 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 13:19:05,216 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 13:19:05,218 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 13:19:05,218 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 13:19:05,220 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 13:19:05,441 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 13:22:10,206 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 13:22:55,891 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 13:23:31,408 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 13:23:31,417 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,425 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,434 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,445 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,454 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,462 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,478 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,486 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,493 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,510 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,519 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,526 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,542 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,550 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,561 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,574 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,582 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,590 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,606 - LocationAnalyzer - WARNING - Error analyzing sentiment: Failed to analyze sentiment: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'D:\\Python\\nltk_data'
+    - 'D:\\Python\\share\\nltk_data'
+    - 'D:\\Python\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-11-06 13:23:31,607 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 13:23:31,607 - LocationAnalyzer - WARNING - No date column found for trend analysis
+2024-11-06 13:23:31,607 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 13:23:31,607 - LocationAnalyzer - ERROR - Analysis failed: Insight generation failed: 'LocationAnalyzer' object has no attribute '_generate_insights'
+2024-11-06 13:26:41,410 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 13:26:41,411 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 13:26:41,412 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 13:26:41,415 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 13:26:41,417 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 13:26:41,417 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 13:26:41,419 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 13:26:41,637 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 13:30:11,464 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 13:31:06,030 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 13:31:30,423 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 13:31:30,435 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very positive'
+2024-11-06 13:31:30,444 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very positive'
+2024-11-06 13:31:30,489 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very negative'
+2024-11-06 13:31:30,502 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 13:31:30,502 - LocationAnalyzer - WARNING - No date column found for trend analysis
+2024-11-06 13:31:30,502 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 13:31:30,502 - LocationAnalyzer - ERROR - Analysis failed: Insight generation failed: 'LocationAnalyzer' object has no attribute '_generate_insights'
+2024-11-06 13:32:07,969 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 13:32:07,969 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 13:32:07,971 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 13:32:07,974 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 13:32:07,976 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 13:32:07,976 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 13:32:07,978 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 13:32:08,195 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 13:35:52,212 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 13:36:25,033 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 13:36:44,121 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 13:36:44,144 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very positive'
+2024-11-06 13:36:44,156 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very positive'
+2024-11-06 13:36:44,209 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very negative'
+2024-11-06 13:36:44,223 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 13:36:44,223 - LocationAnalyzer - WARNING - No date column found for trend analysis
+2024-11-06 13:36:44,223 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 13:36:44,223 - LocationAnalyzer - ERROR - Analysis failed: Insight generation failed: 'LocationAnalyzer' object has no attribute '_generate_insights'
+2024-11-06 13:38:15,406 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 13:38:15,406 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 13:38:15,409 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 13:38:15,412 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 13:38:15,414 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 13:38:15,415 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 13:38:15,416 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 13:38:15,646 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 13:42:17,999 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 13:43:18,748 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 13:43:53,867 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 13:43:53,891 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very positive'
+2024-11-06 13:43:53,907 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very positive'
+2024-11-06 13:43:54,002 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very negative'
+2024-11-06 13:43:54,027 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 13:43:54,028 - LocationAnalyzer - WARNING - No date column found for trend analysis
+2024-11-06 13:43:54,028 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 13:43:54,028 - LocationAnalyzer - ERROR - Analysis failed: Insight generation failed: 'LocationAnalyzer' object has no attribute '_generate_insights'
+2024-11-06 14:44:35,772 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 14:44:35,772 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 14:44:35,774 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 14:44:35,776 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 14:44:35,779 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 14:44:35,779 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 14:44:35,780 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 14:44:35,999 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 14:44:41,128 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 14:44:41,289 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 14:44:41,300 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 14:44:41,300 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 14:44:41,300 - LocationAnalyzer - WARNING - No date column found for trend analysis
+2024-11-06 14:44:41,300 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 14:44:41,300 - LocationAnalyzer - WARNING - Error generating insights: 'LocationAnalyzer' object has no attribute 'df'
+2024-11-06 14:44:41,300 - LocationAnalyzer - WARNING - Error saving to cache: Object of type datetime is not JSON serializable
+2024-11-06 19:36:02,329 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 19:36:02,329 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 19:36:02,332 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 19:36:02,334 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 19:36:02,336 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 19:36:02,336 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 19:36:02,337 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 19:36:02,560 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 19:36:09,265 - LocationAnalyzer - INFO - Removed expired cache file: LocationAnalyzer_a59630055fc126743fa32960900f7884e18bdee423954ef6bee96d50e14908c8.json
+2024-11-06 19:36:09,266 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 19:36:09,775 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 19:36:09,885 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 19:36:10,395 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very positive'
+2024-11-06 19:36:10,416 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'score'
+2024-11-06 19:36:10,440 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'score'
+2024-11-06 19:36:10,440 - LocationAnalyzer - ERROR - Analysis failed: Sentiment analysis failed: Error in sentiment analysis: 'SentimentAnalyzer' object has no attribute 'analyze_batch'
+2024-11-06 19:45:04,123 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 19:45:04,124 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 19:45:04,126 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 19:45:04,129 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 19:45:04,131 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 19:45:04,131 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 19:45:04,133 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 19:45:04,358 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 19:45:11,188 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 19:45:11,698 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 19:45:11,805 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 19:45:12,347 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'very positive'
+2024-11-06 19:45:12,386 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'score'
+2024-11-06 19:45:12,413 - LocationAnalyzer - WARNING - Error analyzing sentiment: 'score'
+2024-11-06 19:45:12,413 - LocationAnalyzer - ERROR - Analysis failed: Sentiment analysis failed: Error in sentiment analysis: 'SentimentAnalyzer' object has no attribute 'analyze_batch'
+2024-11-06 19:53:18,837 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 19:53:18,837 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 19:53:18,840 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 19:53:18,843 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 19:53:18,845 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 19:53:18,845 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 19:53:18,847 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 19:53:19,075 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 19:53:27,248 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 19:53:27,748 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 19:53:27,862 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 19:53:28,003 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 19:53:28,003 - LocationAnalyzer - WARNING - No date column found for trend analysis
+2024-11-06 19:53:28,003 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 19:53:28,003 - LocationAnalyzer - WARNING - Error generating insights: 'LocationAnalyzer' object has no attribute 'df'
+2024-11-06 19:53:28,004 - LocationAnalyzer - WARNING - Error saving to cache: Object of type datetime is not JSON serializable
+2024-11-06 20:00:06,949 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 20:00:06,949 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 20:00:06,952 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 20:00:06,954 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 20:00:06,956 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 20:00:06,956 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 20:00:06,957 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 20:00:07,173 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 20:00:14,918 - LocationAnalyzer - INFO - Using cached result
+2024-11-06 20:00:14,918 - LocationAnalyzer - WARNING - Error reading cache: Expecting value: line 5 column 19 (char 72)
+2024-11-06 20:00:14,918 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 20:00:15,431 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 20:00:15,539 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 20:00:15,678 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 20:00:15,678 - LocationAnalyzer - WARNING - No date column found for trend analysis
+2024-11-06 20:00:15,678 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 20:00:15,679 - LocationAnalyzer - INFO - Results saved to cache
+2024-11-06 21:35:47,200 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 21:35:47,200 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 21:35:47,203 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 21:35:47,205 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 21:35:47,207 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 21:35:47,207 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 21:35:47,209 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 21:35:47,427 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 21:35:56,089 - LocationAnalyzer - INFO - Removed expired cache file: LocationAnalyzer_717c38b98ab1aeceaafa71bca1ae5ade0bcd65bc792035593392d7364c4fa018.json
+2024-11-06 21:35:56,090 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 21:35:56,651 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 21:35:56,776 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 21:35:56,931 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 21:35:56,931 - LocationAnalyzer - WARNING - No date column found for trend analysis
+2024-11-06 21:35:56,931 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 21:35:56,932 - LocationAnalyzer - INFO - Results saved to cache
+2024-11-06 22:13:45,060 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 22:13:45,060 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 22:13:45,063 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 22:13:45,065 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 22:13:45,067 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 22:13:45,067 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 22:13:45,069 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 22:13:45,291 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 22:16:20,822 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 22:16:20,822 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 22:16:20,825 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 22:16:20,827 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 22:16:20,829 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 22:16:20,829 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 22:16:20,831 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 22:16:21,055 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 22:39:36,850 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 22:39:36,851 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 22:39:36,853 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 22:39:36,855 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 22:39:36,858 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 22:39:36,858 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 22:39:36,859 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 22:39:37,078 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 22:39:48,205 - LocationAnalyzer - INFO - Removed expired cache file: LocationAnalyzer_717c38b98ab1aeceaafa71bca1ae5ade0bcd65bc792035593392d7364c4fa018.json
+2024-11-06 22:39:48,206 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 22:39:48,731 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 22:39:48,851 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 22:39:48,999 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 22:39:48,999 - LocationAnalyzer - WARNING - No date column 'ÆÀÂÛÈÕÆÚ' found for trend analysis
+2024-11-06 22:39:48,999 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 22:39:49,000 - LocationAnalyzer - INFO - Results saved to cache
+2024-11-06 23:56:40,675 - LocationAnalyzer - INFO - Initializing base analyzer...
+2024-11-06 23:56:40,675 - LocationAnalyzer - INFO - Checking NLTK resources...
+2024-11-06 23:56:40,678 - LocationAnalyzer - INFO - Downloading stopwords...
+2024-11-06 23:56:40,680 - LocationAnalyzer - INFO - Downloading wordnet...
+2024-11-06 23:56:40,682 - LocationAnalyzer - INFO - Downloading averaged_perceptron_tagger...
+2024-11-06 23:56:40,682 - LocationAnalyzer - INFO - Initializing utility classes...
+2024-11-06 23:56:40,684 - LocationAnalyzer - INFO - Initializing spaCy...
+2024-11-06 23:56:40,903 - LocationAnalyzer - INFO - Base analyzer initialization completed
+2024-11-06 23:56:48,681 - LocationAnalyzer - INFO - Removed expired cache file: LocationAnalyzer_717c38b98ab1aeceaafa71bca1ae5ade0bcd65bc792035593392d7364c4fa018.json
+2024-11-06 23:56:48,682 - LocationAnalyzer - INFO - Extracting categories...
+2024-11-06 23:56:49,185 - LocationAnalyzer - INFO - Counting mentions...
+2024-11-06 23:56:49,296 - LocationAnalyzer - INFO - Analyzing sentiment...
+2024-11-06 23:56:49,442 - LocationAnalyzer - ERROR - Sentiment analysis failed: 'metadata'
+2024-11-06 23:56:49,442 - LocationAnalyzer - INFO - Analyzing trends...
+2024-11-06 23:56:49,443 - LocationAnalyzer - INFO - Generating insights...
+2024-11-06 23:56:49,445 - LocationAnalyzer - INFO - Results saved to cache
