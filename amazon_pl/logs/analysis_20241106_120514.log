@@ -1,0 +1,303 @@
+2024-11-06 12:05:14,408 - root - INFO - Starting ReviewAnalyzer initialization...
+2024-11-06 12:05:14,408 - root - INFO - Loading configuration...
+2024-11-06 12:05:14,409 - root - INFO - Configuration loaded from config.yaml
+2024-11-06 12:05:14,409 - root - INFO - Initializing data processor...
+2024-11-06 12:05:14,692 - root - INFO - Initializing insight generator...
+2024-11-06 12:05:14,692 - root - INFO - Initializing report generator...
+2024-11-06 12:05:14,693 - root - INFO - Initializing analyzers...
+2024-11-06 12:05:14,693 - root - INFO - Initializing UserAnalyzer...
+2024-11-06 12:05:15,383 - root - INFO - Initializing TimingAnalyzer...
+2024-11-06 12:05:15,610 - root - INFO - Initializing LocationAnalyzer...
+2024-11-06 12:05:16,095 - root - INFO - Initializing PurposeAnalyzer...
+2024-11-06 12:05:16,317 - root - INFO - Initializing ScenarioAnalyzer...
+2024-11-06 12:05:16,748 - root - INFO - Initializing MotivationAnalyzer...
+2024-11-06 12:05:17,237 - root - INFO - Initializing ExperienceAnalyzer...
+2024-11-06 12:05:17,453 - root - INFO - Initializing DesignExpectationAnalyzer...
+2024-11-06 12:05:17,891 - root - INFO - ReviewAnalyzer initialization completed successfully
+2024-11-06 12:05:17,891 - root - INFO - Loading data from file: Top100.xlsx
+2024-11-06 12:05:19,008 - root - INFO - Loaded 7241 rows of data
+2024-11-06 12:05:19,008 - root - INFO - Processing dataframe...
+2024-11-06 12:06:02,362 - root - INFO - Data processing completed
+2024-11-06 12:06:02,362 - root - INFO - Starting multi-dimensional analysis...
+2024-11-06 12:06:02,362 - root - INFO - Starting user analysis...
+2024-11-06 12:06:02,378 - UserAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:06:02,378 - root - ERROR - Error in user analysis: unhashable type: 'list'
+2024-11-06 12:06:02,378 - root - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\pythonProject\amazon_pl\main.py", line 151, in analyze
+    results = analyzer.analyze(processed_df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\user_analyzer.py", line 272, in analyze
+    results = super().analyze(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 230, in analyze
+    cache_key = self._generate_cache_key(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 115, in _generate_cache_key
+    pd.util.hash_pandas_object(df).values.tobytes()
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 174, in hash_pandas_object
+    h = combine_hash_arrays(hashes, num_items)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 72, in combine_hash_arrays
+    for i, a in enumerate(arrays):
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 173, in <genexpr>
+    hashes = (x for x in _hashes)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 154, in <genexpr>
+    hash_array(series._values, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 279, in hash_array
+    return _hash_ndarray(vals, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 318, in _hash_ndarray
+    codes, categories = factorize(vals, sort=False)
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7281, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7195, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'list'
+2024-11-06 12:06:02,380 - root - INFO - Starting timing analysis...
+2024-11-06 12:06:02,395 - TimingAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:06:02,395 - root - ERROR - Error in timing analysis: unhashable type: 'list'
+2024-11-06 12:06:02,395 - root - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\pythonProject\amazon_pl\main.py", line 151, in analyze
+    results = analyzer.analyze(processed_df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\timing_analyzer.py", line 174, in analyze
+    results = super().analyze(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 230, in analyze
+    cache_key = self._generate_cache_key(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 115, in _generate_cache_key
+    pd.util.hash_pandas_object(df).values.tobytes()
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 174, in hash_pandas_object
+    h = combine_hash_arrays(hashes, num_items)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 72, in combine_hash_arrays
+    for i, a in enumerate(arrays):
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 173, in <genexpr>
+    hashes = (x for x in _hashes)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 154, in <genexpr>
+    hash_array(series._values, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 279, in hash_array
+    return _hash_ndarray(vals, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 318, in _hash_ndarray
+    codes, categories = factorize(vals, sort=False)
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7281, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7195, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'list'
+2024-11-06 12:06:02,396 - root - INFO - Starting location analysis...
+2024-11-06 12:06:02,409 - LocationAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:06:02,409 - root - ERROR - Error in location analysis: unhashable type: 'list'
+2024-11-06 12:06:02,409 - root - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\pythonProject\amazon_pl\main.py", line 151, in analyze
+    results = analyzer.analyze(processed_df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\location_analyzer.py", line 198, in analyze
+    results = super().analyze(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 230, in analyze
+    cache_key = self._generate_cache_key(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 115, in _generate_cache_key
+    pd.util.hash_pandas_object(df).values.tobytes()
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 174, in hash_pandas_object
+    h = combine_hash_arrays(hashes, num_items)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 72, in combine_hash_arrays
+    for i, a in enumerate(arrays):
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 173, in <genexpr>
+    hashes = (x for x in _hashes)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 154, in <genexpr>
+    hash_array(series._values, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 279, in hash_array
+    return _hash_ndarray(vals, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 318, in _hash_ndarray
+    codes, categories = factorize(vals, sort=False)
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7281, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7195, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'list'
+2024-11-06 12:06:02,410 - root - INFO - Starting purpose analysis...
+2024-11-06 12:06:02,433 - PurposeAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:06:02,434 - root - ERROR - Error in purpose analysis: unhashable type: 'list'
+2024-11-06 12:06:02,434 - root - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\pythonProject\amazon_pl\main.py", line 151, in analyze
+    results = analyzer.analyze(processed_df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\purpose_analyzer.py", line 153, in analyze
+    results = super().analyze(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 230, in analyze
+    cache_key = self._generate_cache_key(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 115, in _generate_cache_key
+    pd.util.hash_pandas_object(df).values.tobytes()
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 174, in hash_pandas_object
+    h = combine_hash_arrays(hashes, num_items)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 72, in combine_hash_arrays
+    for i, a in enumerate(arrays):
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 173, in <genexpr>
+    hashes = (x for x in _hashes)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 154, in <genexpr>
+    hash_array(series._values, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 279, in hash_array
+    return _hash_ndarray(vals, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 318, in _hash_ndarray
+    codes, categories = factorize(vals, sort=False)
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7281, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7195, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'list'
+2024-11-06 12:06:02,434 - root - INFO - Starting scenario analysis...
+2024-11-06 12:06:02,449 - ScenarioAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:06:02,449 - root - ERROR - Error in scenario analysis: unhashable type: 'list'
+2024-11-06 12:06:02,449 - root - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\pythonProject\amazon_pl\main.py", line 151, in analyze
+    results = analyzer.analyze(processed_df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\scenario_analyzer.py", line 255, in analyze
+    results = super().analyze(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 230, in analyze
+    cache_key = self._generate_cache_key(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 115, in _generate_cache_key
+    pd.util.hash_pandas_object(df).values.tobytes()
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 174, in hash_pandas_object
+    h = combine_hash_arrays(hashes, num_items)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 72, in combine_hash_arrays
+    for i, a in enumerate(arrays):
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 173, in <genexpr>
+    hashes = (x for x in _hashes)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 154, in <genexpr>
+    hash_array(series._values, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 279, in hash_array
+    return _hash_ndarray(vals, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 318, in _hash_ndarray
+    codes, categories = factorize(vals, sort=False)
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7281, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7195, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'list'
+2024-11-06 12:06:02,450 - root - INFO - Starting motivation analysis...
+2024-11-06 12:06:02,464 - MotivationAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:06:02,465 - root - ERROR - Error in motivation analysis: unhashable type: 'list'
+2024-11-06 12:06:02,465 - root - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\pythonProject\amazon_pl\main.py", line 151, in analyze
+    results = analyzer.analyze(processed_df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\motivation_analyzer.py", line 262, in analyze
+    results = super().analyze(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 230, in analyze
+    cache_key = self._generate_cache_key(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 115, in _generate_cache_key
+    pd.util.hash_pandas_object(df).values.tobytes()
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 174, in hash_pandas_object
+    h = combine_hash_arrays(hashes, num_items)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 72, in combine_hash_arrays
+    for i, a in enumerate(arrays):
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 173, in <genexpr>
+    hashes = (x for x in _hashes)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 154, in <genexpr>
+    hash_array(series._values, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 279, in hash_array
+    return _hash_ndarray(vals, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 318, in _hash_ndarray
+    codes, categories = factorize(vals, sort=False)
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7281, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7195, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'list'
+2024-11-06 12:06:02,465 - root - INFO - Starting experience analysis...
+2024-11-06 12:06:02,480 - ExperienceAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:06:02,480 - root - ERROR - Error in experience analysis: unhashable type: 'list'
+2024-11-06 12:06:02,480 - root - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\pythonProject\amazon_pl\main.py", line 151, in analyze
+    results = analyzer.analyze(processed_df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\experience_analyzer.py", line 265, in analyze
+    results = super().analyze(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 230, in analyze
+    cache_key = self._generate_cache_key(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 115, in _generate_cache_key
+    pd.util.hash_pandas_object(df).values.tobytes()
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 174, in hash_pandas_object
+    h = combine_hash_arrays(hashes, num_items)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 72, in combine_hash_arrays
+    for i, a in enumerate(arrays):
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 173, in <genexpr>
+    hashes = (x for x in _hashes)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 154, in <genexpr>
+    hash_array(series._values, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 279, in hash_array
+    return _hash_ndarray(vals, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 318, in _hash_ndarray
+    codes, categories = factorize(vals, sort=False)
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7281, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7195, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'list'
+2024-11-06 12:06:02,481 - root - INFO - Starting design analysis...
+2024-11-06 12:06:02,496 - DesignExpectationAnalyzer - ERROR - Analysis failed: unhashable type: 'list'
+2024-11-06 12:06:02,496 - root - ERROR - Error in design analysis: unhashable type: 'list'
+2024-11-06 12:06:02,496 - root - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\pythonProject\amazon_pl\main.py", line 151, in analyze
+    results = analyzer.analyze(processed_df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\design_expectation_analyzer.py", line 284, in analyze
+    results = super().analyze(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 230, in analyze
+    cache_key = self._generate_cache_key(df)
+  File "D:\pythonProject\amazon_pl\src\analyzers\base_analyzer.py", line 115, in _generate_cache_key
+    pd.util.hash_pandas_object(df).values.tobytes()
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 174, in hash_pandas_object
+    h = combine_hash_arrays(hashes, num_items)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 72, in combine_hash_arrays
+    for i, a in enumerate(arrays):
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 173, in <genexpr>
+    hashes = (x for x in _hashes)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 154, in <genexpr>
+    hash_array(series._values, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 279, in hash_array
+    return _hash_ndarray(vals, encoding, hash_key, categorize)
+  File "D:\Python\lib\site-packages\pandas\core\util\hashing.py", line 318, in _hash_ndarray
+    codes, categories = factorize(vals, sort=False)
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+  File "D:\Python\lib\site-packages\pandas\core\algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7281, in pandas._libs.hashtable.PyObjectHashTable.factorize
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7195, in pandas._libs.hashtable.PyObjectHashTable._unique
+TypeError: unhashable type: 'list'
+2024-11-06 12:06:02,497 - root - INFO - Starting insight generation...
+2024-11-06 12:06:02,497 - root - INFO - Insight generation completed
+2024-11-06 12:06:02,497 - root - INFO - Starting report generation...
+2024-11-06 12:06:02,531 - root - ERROR - Error in analysis process: Unsupported type <class 'xlsxwriter.worksheet.String'> in write()
+2024-11-06 12:06:02,531 - root - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\xlsxwriter\worksheet.py", line 547, in _write
+    f = float(token)
+TypeError: float() argument must be a string or a number, not 'String'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\amazon_pl\main.py", line 168, in analyze
+    report_path = self.report_generator.generate_report(
+  File "D:\pythonProject\amazon_pl\src\report_generator.py", line 69, in generate_report
+    self._apply_excel_formatting(workbook)
+  File "D:\pythonProject\amazon_pl\src\report_generator.py", line 298, in _apply_excel_formatting
+    worksheet.write(0, col, worksheet.table[0][col], header_format)
+  File "D:\Python\lib\site-packages\xlsxwriter\worksheet.py", line 107, in cell_wrapper
+    return method(self, *args, **kwargs)
+  File "D:\Python\lib\site-packages\xlsxwriter\worksheet.py", line 478, in write
+    return self._write(row, col, *args)
+  File "D:\Python\lib\site-packages\xlsxwriter\worksheet.py", line 552, in _write
+    raise TypeError("Unsupported type %s in write()" % type(token))
+TypeError: Unsupported type <class 'xlsxwriter.worksheet.String'> in write()
